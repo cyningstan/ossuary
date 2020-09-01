@@ -1,0 +1,414 @@
+				OSSUARY
+		    A Simple Roguelike Dungeon Crawl
+	     Copyright (C) Damian Gareth Walker 2013, 2020.
+
+Contents:
+
+	The Story
+	The Game
+	Running the Game
+	How to Play
+	Using the Menu
+	Your Inventory
+	Understanding Your Hero
+	Items and Their Effects
+	The Enemies
+	Licence
+	Acknowledgements
+
+The Story
+
+	The villagers were quite proud of their ossuary. Centuries of
+	custom and practice dictated that at the end of their lives, the
+	people of this village, like all the other villages and towns in
+	the land, would inter their dead in grand, uderground vaults
+	built for the purpose. At special times, like birthdays and
+	holidays, the living would descend into the ossuary to visit and
+	make offerings to their ancestors.
+
+	But things have been a bit different recently. Every age has its
+	social ills, and today was no different. Though magic had often
+	been used in medicine, religion and war, a new breed of
+	sorcerors made it less welcome. A craze for necromancy took hold
+	in the towns, and many young sorcerors developed an addiction
+	for communicating with, and even raising, the dead. Senior
+	practitioners of the magic arts needed a good reason to disturb
+	the sleep of the dead, but their younger colleagues were often
+	caught doing it for the sheer fun of it.
+
+	This had to stop, and in a short time the more irresponsible
+	students of magic were banished from the towns and the colleges
+	in disgrace. Did this stop them? Of course not. Off they went
+	into the country to find other places to practice their dark
+	arts, and what better place to raise the dead than in the vast
+	burial chambers built across the land?
+
+	And so, periodically, along with the wolves, the goblins and the
+	occasional dragon, villagers now have necromancers to put up
+	with too. While the necromancers are happy to confine their
+	activities to the underground chambers, making pets out of wild
+	creatures and friends out of the dead, the intrusion of spirits
+	and animated corpses adds nothing to the dignity of the funerals
+	and other ceremonies the villagers are still trying to hold in
+	their grand, centuries-old cemeteries. They want it stopped. The
+	villagers want their Ossuary back.
+
+The Game
+
+	Ossuary is an adventure game for the IBM PC and compatibles. You
+	play the hero who has agreed to rid the ossuary of its unwanted
+	visitor, the necromancer. You must fight your way through the
+	twenty-four levels of enchanted creatures, animated bodies and
+	summoned spirits with which the necromancer has filled his
+	adopted domain. And on reaching the final level, you must defeat
+	the necromancer himself. Your prize is all the gold you can
+	carry. And being an adventurer, you can carry a lot.
+
+	Every game is different. The layout of the dungeon is generated
+	each time you play. While things get more difficult the further
+	down you go, the manner in which this happens varies from one
+	game to another. In some games you encounter spirits early on,
+	while in other games it may take longer, but the very animals
+	themselves become more vicious. Sometimes you will encounter a
+	great variety of creatures on a single level, while at other
+	times the enemies seem to come in waves, one kind succeeding
+	another.
+
+	Your character will also be different each time you play. Attack
+	strength, defensive skill and intelligence are all randomly set
+	at the beginning of the game, though every hero whose role you
+	take on will be of a similar overall ability. In some games you
+	might have a strong character suited to physical attacks; in
+	others a physically weaker character might be better suited to
+	magic; in some games the abilities are finely balanced and you
+	need to see how your character develops in order to decide how
+	best to deal with the various enemies.
+
+	In the manner of dungeon hack games everywhere, there are
+	objects to be found on the way which will help you in your
+	quest. Some things sustain your health, there are weapons and
+	shields to be found, magic wands and amulets may come in useful
+	if you have the ability to use them, and there are incantation
+	scrolls to keep evil spirits at bay. But with all this, your
+	chances are still slim: all these things were left by previous,
+	failed adventurers, who now add to the numbers of the wandering
+	dead.
+
+Running the Game
+
+	The minimum specification to run Ossuary is an IBM PC with an
+	8088 processor and CGA graphics, running PC-DOS or MS-DOS. The
+	game will run at an acceptable speed on faster machines, and its
+	graphics will display correctly on any CGA-compatible card with
+	an RGB colour monitor. Clarity and legibility are not guaranteed
+	on monochrome or colour composite monitors, but the game will
+	run.
+
+	The game can be run from a floppy disk or from a hard disk. The
+	following instructions assume that you have the game installed
+	to hard disk C: in the directory OSSUARY. To run the game, type
+	the following commands:
+
+		c:
+		cd \ossuary
+		ossuary
+
+	The first thing you will see is the high score table. This lists
+	the players who have made it back after ridding the Ossuary of
+	its necromancer, and shows how much gold they collected. You
+	will be asked under what name you want to play. Note that if you
+	omit to type in a name, you will not be entered on the high
+	score table even if you collect enough gold and beat the
+	necromancer. Once you have entered your name, you will start
+	your first game.
+
+How to Play
+
+	The interface for Ossuary is very simple to pick up. You see the
+	dungeon from the top down, in the form of a level plan. The four
+	cursor keys move your hero around the map. You only see part of
+	the current dungeon level at a time; the view is kept centred on
+	your hero as you move around. You might notice that enemies move
+	only when you do. Ossuary is a turn based game, in which careful
+	thought is more important than fast reactions.
+
+	To attack creatures, simply move so as to push into them. There
+	is no specific attack command, nor is there ranged combat in the
+	game. This much exploration and attacking can be done with the
+	direction keys only, but the menu system and its shortcut keys
+	give access to more of the game's features. To start playing the
+	game properly, let's look at the screen in a bit more detail.
+
+	The screen is split into four parts. The least important part is
+	the bottom: this is purely there for decoration. The part you
+	will be looking at most is in the middle: this is the map view
+	on which you move around. The cyan bar underneath the map is the
+	message bar. It is used to show brief messages, and to show the
+	menu.
+
+	To the left are your hero's statistics. These are his strengths,
+	and the additions to his natural abilities which are affected by
+	the things he is currently holding. At the bottom of this panel
+	is the amount of gold collected, which functions as a score in
+	the game. It will be listed on the high score screen if you beat
+	the necromancer.
+
+	On the right is the inventory, the items your hero has collected
+	and holds in his hands or in his bag. You'll need to understand
+	this and the statistics panel to play the game effectively, but
+	first let's look at the menu.
+
+Using the Menu
+
+	The SPACE bar activates the menu. The current option will appear
+	on the menu bar, and pressing SPACE again will select
+	it. Pressing LEFT and RIGHT will allow you to select the other
+	options that are available to you. The game will normally try to
+	select the most appropriate option when you first press SPACE,
+	so for instance, when standing at an item you can pick up, PICK
+	UP ITEM is the default option. This means that much of the time
+	you can take the most appropriate action at any given time just
+	by pressing SPACE twice. The menu options are:
+
+		SHOW GAME KEYS
+		WAIT A MOMENT...
+		VIEW INVENTORY
+		PICK UP ITEM
+		DESCEND STAIRS
+		EAT A NICE APPLE
+		QUAFF A POTION
+		START NEW GAME
+		EXIT THIS GAME
+		CANCEL MENU
+
+	If no appropriate action suggests itself, the default option
+	will be VIEW INVENTORY. From this you can see how to pick up
+	items, and to descend the stairs to the next level. You can, by
+	the way, go downstairs leaving monsters and objects behind, but
+	trying to rush headlong down to the last level without fighting
+	or collecting anything is a recipe for failure.
+
+	All of these options have shortcut keys which can be used to
+	activate them with or without bringing up the menu first; those
+	shortcut keys are given as each option is discussed.
+
+	SHOW GAME KEYS brings up a list of in-game shortcut keys. Space
+	is cramped, so where alternative keys exist for a function they
+	will not be listed. ESC returns to gameplay when viewing that
+	list.
+
+	The WAIT A MOMENT... option makes the hero stand still while
+	allowing the other creatures to move; useful if you want to wait
+	for an enemy to come to you or move out of the way. The shortcut
+	key for this is the dot (full-stop, or period, depending on
+	where you come from).
+
+	VIEW INVENTORY enters the inventory subsystem, which is
+	explained in detail later. The shortcut key for this is I.
+
+	PICK UP ITEM picks up any item in the square where the hero is
+	standing, and puts it in the hero's bag. The shortcut key is T
+	(for "take").
+
+	DESCEND STAIRS will take the hero down the stairs to the next
+	level. The shortcut key is S, but players of other roguelike
+	games will be pleased to know the > key also works.
+
+	EAT A NICE APPLE selects an apple from the hero's hands or bag,
+	and eats it, restoring four health points. the shortcut key is
+	E.
+
+	QUAFF A POTION selects a health potion from the hero's hands or
+	bag, and quaffs it, restoring the hero to full health. The
+	shortcut key is Q.
+
+	START NEW GAME abandons the current game and starts afresh with
+	a new hero in a new Ossuary. You are asked for confirmation,
+	then given an opportunity to choose another name for your hero,
+	before the new game begins. The shortcut key is N.
+
+	EXIT THIS GAME abandons the game and returns to DOS. The
+	shortcut keys are X and ESC. As with starting a new game, you
+	are asked for confirmation in case you pressed the key by
+	mistake.
+
+	CANCEL MENU lets you exit the menu without choosing an option,
+	in case you entered it by mistake. Its shortcut key, while
+	viewing the menu only, is ESC.
+
+	As promised, it is time to look more closely at the VIEW
+	INVENTORY option.
+
+Your Inventory
+
+	The panel on the right of the screen shows the items you are
+	currently carrying with you. The top two items are separate;
+	these are the things you are holding in your hands, or wielding
+	as the game puts it. The other items are in your bag, not
+	currently being used but available for you at any time you need
+	them. Usually you would wield a weapon and a shield or a
+	protective amulet.
+
+	When you select the option VIEW INVENTORY from the main menu, a
+	cursor appears in this panel. The action in the game is
+	suspended, and your movement controls instead move the cursor
+	around your inventory. The message bar identifies the currently
+	selected item. Pressing SPACE when viewing the inventory brings
+	up another menu:
+
+		WIELD ITEM
+		PUT ITEM AWAY
+		CONSUME ITEM
+		DISCARD ITEM
+		CLOSE INVENTORY
+
+	The CLOSE INVENTORY option returns you to the game without any
+	other effect, allowing you to move around again. The shortcut
+	key is ESC.
+
+	All the other options, when used successfully, cause time to
+	pass as with the WAIT A MOMENT... option on the main menu. The
+	relevant shortcut keys are available while moving around the
+	inventory or while browsing this menu. They are not available
+	from the main menu or while moving your hero; you need to enter
+	VIEW INVENTORY first.
+
+	WIELD ITEM will put the currently selected item into your
+	hand. The cursor needs to be on an item in your bag, and one
+	hand needs to be empty. Ossuary doesn't care whether your hero
+	is left- or right-handed, so it doesn't matter which hand your
+	weapon is in. The shortcut key is W.
+
+	PUT ITEM AWAY will return a wielded item to your bag, and is
+	only useful when selecting an item in your hand. The shortcut
+	key is P.
+
+	CONSUME ITEM, useful only for apples and potions, causes you to
+	eat or drink the currently selected item. You can do this
+	directly from the bag; you do not need to be wielding the
+	item. This differs from the EAT/DRINK options available from
+	outside the inventory; here you choose the apple or potion, and
+	it allows you to be fussy about the layout of your
+	inventory. The shortcut key is C, but if you are pointing at an
+	apple you can use E, and if you are pointing at a potion you can
+	use Q.
+
+	DISCARD ITEM drops the currently selected item on the
+	ground. This cannot be done where there is already an item on
+	the ground where the hero stands, and you cannot drop items down
+	the stairs! The shortcut key is D.
+
+Understanding Your Hero
+
+	Your hero is described by the statistics panel on the left of
+	the screen. The four statistics are Attack Strength, identified
+	by the fist, Defence Skill shown by the raised hand,
+	Intelligence shown by the quill, and Health shown by the heart.
+
+	The first three statistics are generated randomly at the start
+	of the game. Under each is a modifier, preceded by a +
+	sign. This shows how much that statistic has been augmented by
+	objects the hero is wielding. Weapons modify the attack
+	strength, shields modify defence skill, and magical items modify
+	intelligence.
+
+	The fourth statistic, health, is calculated by adding together
+	the other three. This calculates a maximum; health is depleted
+	by enemy attacks, but can be restored to this maximum. The
+	current health level is above the bar, the maximum is below.
+
+Items and their Effects
+
+	The following items are available at various points in the game:
+
+	Gold. The purse of gold contains 20 gold pieces. The casket of
+	gold contains 50 gold pieces. These are added straight to your
+	gold total when you pick them up; they don't take up any space
+	in your inventory and have no other use apart from score.
+
+	A nice apple. These refreshing snacks restore four hit points to
+	your health when you eat them. They will not increase your
+	health beyond its maximum limit. They are more common than
+	potions.
+
+	A magic potion. Potions restore your health to its maximum. If
+	you have only slight injuries, it is better to eat an apple than
+	to waste a potion which could be used to restore a greater
+	amount of health.
+
+	Weapons. These add to your attack strength when you wield
+	them. The dagger adds +2 points, the broadsword adds +4, and the
+	battle axe adds +6. It is possible to wield two weapons for
+	added effect, like the sword and the axe for +10, but it is only
+	advisable if you have a high natural defence skill.
+
+	Shields. When wielded, a shield will add to your hero's natural
+	defence skill. The wooden shield adds +2, and the iron shield
+	adds +4. It is possible to wield them both, but is not
+	recommended as your hero is more effective when carrying a
+	weapon.
+
+	A magic wand. This has two effects when wielded. Firstly, a +2
+	modifier is added to intelligence. Secondly, all attacks are
+	magical, and use the modified intelligence rather than physical
+	attack strength.
+
+	A magic amulet. This needs to be wielded to be useful. Wielding
+	it has two effects. Firstly, a +2 modifier is added to
+	intelligence. Secondly, all defence is magical, and uses the
+	modified intelligence rather than physical defence skill. The
+	amulet is often combined with the wand to give a +4 intelligence
+	modifier, as this combined modifier affects both attack and
+	defence.
+
+	A banish spell. When wielded in place of a weapon, this spell
+	can banish a spectre or daemon. Chances of success are a little
+	under 50%. There is a small chance that the spell will crumble
+	to dust on failure, so it is advisable to carry a few spells. As
+	spectres and daemons are immune to physical attacks, the banish
+	spell is the most effective way to deal with them for heroes
+	without good magical abilities.
+
+The Enemies
+
+	Bats. These giant bats have little attack power but their
+	agility gives them good defence skill. They are also the only
+	non-humanoid enemies that can pick up and carry objects. Still,
+	they are the easiest creatures in the game to beat.
+
+	Other creatures. Other enemies from the animal kingdom become
+	progressively more difficult to beat: the vermin are giant rats,
+	arachnids are giant spiders with a nasty bite, and serpents have
+	a scaly hide which gives them great defensive ability. These
+	creatures cannot carry items, but are often found guarding them.
+
+	Corpses. There are two kinds: cadavers, whose decomposing forms
+	are still dangerous foes, and skeletons whose bleached bones are
+	all that remains of these centuries-old warriors. Both of these
+	enemies can carry items with them.
+
+	Spirits. These are also of two kinds: spectres and
+	daemons. Neither can be hurt with physical weapons, though
+	shields might be useful against their attacks. Spectres are
+	often found guarding valuable items, while daemons are able to
+	pick things up and carry them.
+
+	The Necromancer. This is the ultimate enemy, as strong as any
+	daemon, he sits in his lair awaiting your arrival. Only the
+	stoutest hero will make it to face him, let alone defeat him.
+
+Licence
+
+	You are welcome to copy Ossuary and share it with your
+	friends. The source code is also available for inspection,
+	modification and distribution under the GNU General Public
+	Licence, a full copy of which is included in the source code
+	distribution.
+
+Acknowledgements
+
+	Thanks must go to Phil Cooper, Ricky Walker, and discord users
+	bananaboy, Epona142, DethroTull and Kimdol for their help in
+	testing the DOS release of this game.
+
+	DGW, July 2020.
